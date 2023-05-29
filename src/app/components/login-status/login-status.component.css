@@ -7,7 +7,8 @@
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
     border-radius:43px;
-    background:#205b8d
+    background:#205b8d;
+    padding-right: 0;
 }
 
 .login-status-header{
@@ -15,7 +16,7 @@
     display:-webkit-flex;
     display:-moz-box;
     display:-ms-flexbox;
-    display:flex
+    color: #fff;
 }
 
 .login-status-user-info {
@@ -29,4 +30,8 @@
     -o-transition:all .5s ease;
     -moz-transition:all .5s ease;
     transition:all .5s ease
+}
+
+.button {
+    display: flex;
 }

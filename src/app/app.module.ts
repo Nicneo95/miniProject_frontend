@@ -29,7 +29,6 @@ import { MembersPageComponent } from './components/members-page/members-page.com
 import { OrderHistoryComponent } from './components/order-history/order-history.component';
 import { AuthInterceptorService } from './services/auth-interceptor.service';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { HomeComponent } from './components/home/home.component';
 
 const oktaConfig = AppConfig.oidc;
 
@@ -82,7 +81,6 @@ const routes: Routes = [
     LoginStatusComponent,
     MembersPageComponent,
     OrderHistoryComponent,
-    HomeComponent,
   ],
   imports: [
     RouterModule.forRoot(routes),

@@ -17,7 +17,6 @@ body {
   width: auto;
   font-family: Poppins, sans-serif;
   min-height: 100vh;
-  display: flex;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.625;
@@ -184,10 +183,8 @@ aside.menu-sidebar.d-none.d-lg-block.clr {
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -moz-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
 }
 
 .header-button {
@@ -252,6 +249,8 @@ input.au-input.au-input-xl {
 
 .cart-area.d-n {
   display: block;
+  margin-left: 50px;
+  margin-right: auto;
 }
 
 .cart-area i {
@@ -917,6 +916,7 @@ footer ul li {
     height: 80px;
   }
   .header-wrap {
+    position: relative;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
