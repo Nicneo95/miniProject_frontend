@@ -12,6 +12,8 @@
           "/manifest.webmanifest",
           "/*.css",
           "/*.js"
+        ],
+        "urls": [
         ]
       }
     },
@@ -24,6 +26,20 @@
           "/assets/**",
           "/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
         ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "posts",
+      "urls":[
+        "https://ecommerce-production-c8b1.up.railway.app/*"
+      ], 
+      "cacheConfig": {
+        "maxSize": 5,
+        "maxAge": "6h",
+        "timeout": "10s",
+        "strategy": "freshness"
       }
     }
   ]
